@@ -5,12 +5,12 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const contactInfo = [
-  {
+  /*{
     icon: MdAllInbox,
     label: "Email",
     value: "codekoreh@gmail.com",
     href: "codekoreh@gmail.com",
-  },
+  }, */
   /*{
     icon: Phone,
     label: "Phone",
