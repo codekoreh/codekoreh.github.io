@@ -14,6 +14,8 @@ import {
 const skills = [
   "Node.js",
   "NestJS",
+  "Express.js",
+  "TypeScript",
   "REST APIs",
   "WebSockets",
   "Event driven architecture",
@@ -29,6 +31,7 @@ const skills = [
   "Git",
   "GitHub",
   "Docker",
+  "Cloudflare",
   "Postman",
   "Vercel",
   "Render",
@@ -75,26 +78,29 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Backend Engineer, APIs, System & Blockchain
+                Software Engineer · Full-Stack · Backend-First · Blockchain &
+                Web3
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Building scalable
+                Building <br /> full-stack systems
                 <br />
-                <span className="text-primary glow-text">systems </span>
-                and blockchain powered
+                <span className="text-primary glow-text">
+                  and blockchain-powered{" "}
+                </span>
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  applications.
+                  products.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Backend engineer focused on secure, high performance APIs and
-                real-world system reliability. Specializing in event-driven
-                architectures and on-chain ↔ off-chain integrations.
+                Full-stack engineer with backend-first depth — building
+                production-grade fintech and Web3 systems. From API design and
+                database architecture to frontend delivery, crypto payments,
+                on-chain ↔️ off-chain integrations, and full deployment.
               </p>
             </div>
 
@@ -106,7 +112,7 @@ export const Hero = () => {
                 </Button>
               </a>
               <a
-                href="/Akorede_Olasunkanmi_Backend_Engineer_CV.pdf"
+                href="/Akorede_Tech_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -158,22 +164,15 @@ export const Hero = () => {
           </div>
           {/* Right Column - Profile Image */}
           <div className="relative animate-fade-in animation-delay-400">
-            {/* Profile Image */}
-            {/* <div
-              className="absolute inset-0 
-            rounded-4xl bg-gradient-to-br 
-            from-primary/10 via-transparent 
-            to-primary/2 blur-2xl animate-pulse"
-            /> */}
             <div className="relative max-w-sm mx-auto">
               <div className="relative glass rounded-4xl p-2 glow-border">
                 <img
                   src="/profile-photo.jpg"
-                  alt="Prince Akorede"
+                  alt="Akorede Olasunkanmi"
                   className="w-full object-cover rounded-2xl opacity-90"
                 />
 
-                {/* Floating Badge */}
+                {/* Floating Badge - Bottom */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
@@ -182,15 +181,17 @@ export const Hero = () => {
                     </span>
                   </div>
                 </div>
-                {/* Floating Badge */}
+
+                {/* Floating Badge - Top */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">3+</div>
+                  <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-xs text-muted-foreground">Years Exp</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         {/* Skills Section */}
         <div className="mt-20 animate-fade-in animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
@@ -198,7 +199,6 @@ export const Hero = () => {
           </p>
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee">
-              {/* flex animate-marquee */}
               {[...skills, ...skills].map((skill, idx) => (
                 <div key={idx} className="shrink-0 px-8 py-4">
                   <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
@@ -210,6 +210,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
         <a
           href="#about"
