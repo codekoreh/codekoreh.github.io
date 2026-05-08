@@ -7,7 +7,7 @@ const projects = [
     title: "CariPay — Cross-Border Payment Platform",
     description:
       "A full-stack, production-grade payment platform built entirely solo. Supports card payments, crypto payments, cash withdrawals via code, and crypto-to-fiat conversion. Features a 3-tier payment processing engine, referral and affiliate system, multi-layer security architecture, and a real-time admin dashboard. Deployed on Cloudflare with full transaction handling and on-chain ↔️ off-chain data flows.",
-    image: "caripay.jpg",
+    image: "ProjectImg.PNG",
     tags: [
       "Node.js",
       "TypeScript",
